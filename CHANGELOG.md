@@ -16,6 +16,8 @@ All notable, unreleased changes to this project will be documented in this file.
 - Drop `data` field from checkout line model - #6961 by @fowczarek
 - Fix `totalCount` on connection resolver without `first` or `last` - #6975 by @fowczarek
 - Fix variant resolver on `DigitalContent` - #6983 by @fowczarek
+- Add optional support for reporting resource limits via a stub field in `shop` - #6967 by @NyanKiyoshi
+
 
 ### Breaking
 - Multichannel MVP: Multicurrency - #6242 by @fowczarek @d-wysocki
